@@ -1,0 +1,466 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    background: #000;
+    color: #fff;
+}
+
+nav{
+    background: rgb(0, 0, 0);
+    height:60px ;
+    width: 100%;
+}
+
+.headings1{
+    color: white;
+    font-size: 24px;
+    line-height: 50px;
+    padding: 0 100px;
+    font-weight: 300;
+}
+nav ul{
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin:0 5px;
+}
+nav ul li a{
+    color: #fff;
+    padding: 7px 13px;
+    font-size: 18px;
+    border-radius: 30x;
+    text-transform: capitalize;
+}
+a.active, a:hover{
+    background:rgb(0, 0, 0) ;
+    color: #fff;
+    transition: .5s;
+}
+.btn{
+    padding: 15px;
+    width: 130px;
+    font-size: 15px;
+    border:none;
+    transition: .3s all ease-in;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background: #ecca0a;
+}
+
+.btn:hover{
+    color: #000000;
+    background: #fff;
+}
+.box1{
+    /* background: #ecca0a; */
+    width: 700px;
+    height: 300px;
+    margin: 70px;
+    padding: 20px;
+}
+
+.box1_text{
+    font-size: 50px;
+}
+
+.box1_text--mini{
+    width: 580px;
+    font-size: 17px;
+    margin: 10px 0;
+    color: #cccccc;
+}
+
+.logos{
+    display: flex;
+    /* width: 1400px; */
+    margin-top: -150px;
+    align-items: center;
+    height: 20px;
+    padding: 90px;
+    justify-content: space-between;
+}
+.logos img{
+    cursor: pointer;
+}
+.port{
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+.spense_text{
+    font-size: 36px;
+    cursor: pointer;
+    padding: 10px 20px 0 0;
+}
+
+.spense_para{
+    width: 600px;
+    line-height: 2em;
+    font-size: 18px;
+    color:#d6caca; 
+}
+.yelpCamp_text{
+    font-size: 36px;
+    cursor: pointer;
+    padding: 10px 20px 0 0;
+    
+}
+
+.yelpCamp_para{
+    width: 600px;
+    color:#d6caca; 
+    line-height: 2em;
+    font-size: 18px;     
+}
+
+/* Next Box */
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+    background: #292828;
+    height: 300px;
+    font-weight: 400;
+    line-height: 1.6em;
+    padding:5px 100px;
+    word-spacing: 0.1em;
+    color: #a8a2a2;
+}
+
+.box2--heading{
+    font-weight: 500;
+    line-height: 1.5em;
+    width: 650px;
+    color: #fff;
+    padding-bottom: -10px;
+}
+
+.box2_left--para1{
+    width: 600px;
+}
+
+
+.box2_right--para{
+    width: 600px;
+}
+
+.interest{
+    width: 800px;
+    padding: 50px 100px;
+    line-height: 2em;
+}
+
+.interest_heading{
+    font-weight: 400;
+    margin:10px 0px;
+}
+
+.interest_para{
+    color: #bab;
+}
+
+.interest .btn{
+    margin-top: 10px;
+}
+
+#main-footer{
+    display: flex;
+    justify-content: space-between;
+    background: #292828;
+    padding: 0 100px;
+    height: 40px;
+}
+.name{
+    padding: 10px;
+    cursor: pointer;
+}
+
+span .fab{
+    padding: 10px;
+    cursor: pointer;
+}
+
+#main-footer a{
+    color: #fff;
+}
+
+#main-footer a:visited{
+    color: aqua;
+}
+
+.checkbtn{
+    font-size: 24px;
+    float: right;
+    line-height: 60px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+
+@media (max-width:500px){
+    body{
+        color: rgb(255, 255, 255);
+    }
+    .box1{
+        width: 400px;
+        color: rgb(255, 255, 255);
+        background: rgb(0, 0, 0);
+        padding: 27px 9px;
+    }
+
+    .logos{
+        display: inline-block;
+    }
+    .box1_text{
+        font-size: 27px;
+        
+    }
+
+    .box1_text--mini{
+        width: 400px;
+        color: rgb(255, 255, 255);
+        
+    }
+
+    .logos{
+        display:flex;
+        flex-direction: column;
+        padding: 20px;
+        height: 500px;
+        background: rgb(0, 0, 0);
+    }
+    .port{
+        display: flex;
+        flex-direction: column;
+        padding: 0 100px;
+        padding-bottom: -40px;
+        width: 400px;
+        background: rgb(0, 0, 0);
+    }
+
+    .port img{
+        width: 300px;
+        border-radius: 20px;
+        padding:20px 0;
+
+    }
+
+    .spense_text{
+        color: #fff;
+        width: 400px;
+    }
+
+    .spense_para{
+        color: #fff;
+        width: 400px;
+    }
+
+    .yelpCamp_text{
+        color: #fff;
+        width: 400px;
+    }
+
+    .yelpCamp_para{
+        color: #fff;
+        width: 350px;
+    }
+    /* Second Box */
+    .box2{
+        margin: 20px;
+        display: flex;
+        margin-left: 50px;
+        width: 400px;
+        /* padding: 30px 70px; */
+        height: 900px;
+        flex-direction: column;
+    }
+
+    .box2--heading{
+        width: 300px;
+    }
+
+    .box2_left--para1{
+        width: 300px;
+    }
+
+    .box2_right--para{
+        width: 300px;
+    }
+
+    .interest{
+        width: 400px;
+    }
+
+    .interest_heading{
+        font-size: 29px;
+        width: 350px;
+    }
+
+    .interest_para{
+        font-size: 19px;
+        width:320px;
+    }
+
+    #main-footer{
+       width: 500px;
+    }
+}
+
+@media (max-width:858px){
+    .checkbtn{
+        display: block;
+    }
+
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #464242;
+        top: 80px;
+        left:-100%;
+        text-align: center;
+        transition: .4s all;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+
+
+@media (max-width:480px){
+    body{
+        color: rgb(255, 255, 255);
+    }
+    .box1{
+        width: 400px;
+        color: rgb(255, 255, 255);
+        background: rgb(0, 0, 0);
+        padding: 27px 9px;
+    }
+
+    .logos{
+        display: inline-block;
+    }
+    .box1_text{
+        font-size: 27px;
+        
+    }
+
+    .box1_text--mini{
+        width: 400px;
+        color: rgb(255, 255, 255);
+        
+    }
+
+    .logos{
+        display:flex;
+        flex-direction: column;
+        padding: 20px;
+        height: 500px;
+        background: rgb(0, 0, 0);
+    }
+    .port{
+        display: flex;
+        flex-direction: column;
+        padding: 0 100px;
+        padding-bottom: -40px;
+        width: 400px;
+        background: rgb(0, 0, 0);
+    }
+
+    .port img{
+        width: 300px;
+        border-radius: 20px;
+        padding:20px 0;
+
+    }
+
+    .spense_text{
+        color: #fff;
+        width: 400px;
+    }
+
+    .spense_para{
+        color: #fff;
+        width: 400px;
+    }
+
+    .yelpCamp_text{
+        color: #fff;
+        width: 400px;
+    }
+
+    .yelpCamp_para{
+        color: #fff;
+        width: 350px;
+    }
+    /* Second Box */
+    .box2{
+        margin: 20px;
+        display: flex;
+        margin-left: 50px;
+        width: 400px;
+        /* padding: 30px 70px; */
+        height: 900px;
+        flex-direction: column;
+    }
+
+    .box2--heading{
+        width: 300px;
+    }
+
+    .box2_left--para1{
+        width: 300px;
+    }
+
+    .box2_right--para{
+        width: 300px;
+    }
+
+    .interest{
+        width: 400px;
+    }
+
+    .interest_heading{
+        font-size: 29px;
+        width: 350px;
+    }
+
+    .interest_para{
+        font-size: 19px;
+        width:320px;
+    }
+
+    #main-footer{
+       width: 500px;
+    }
+}
